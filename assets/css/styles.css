@@ -32,6 +32,7 @@ body {
     font-size: 1.3rem;
     width: 85%;
     margin: 0 auto;
+    background-color: var(--background);
 }
 
 a {
@@ -88,3 +89,13 @@ form {
     font: inherit;
 }
 
+nav{
+    margin: 0;
+    padding: 0;
+    background-color: var(--navBar);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+}

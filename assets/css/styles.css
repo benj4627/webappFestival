@@ -1,4 +1,23 @@
 /* reset template */
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --venue: #707070; 
+    --white: #FFFFFF;
+    --background: #F3F3F3; 
+    --darkGrey: #333333; 
+    --black: #232323; 
+    --activeState: #FB8B24;
+    --iconColor: #024959;
+    --venueIcons: #026773; 
+    --navBar: #3CA6A6; 
+    --largeSpacing: 2rem;
+    --stndSpacing: 1rem;
+    --borderRadius: 35px; 
+    --borderRadiumSmall: 15px; 
+  } 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +27,9 @@
 
 body {
     min-height: 100vh;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
 }
 
 a {
@@ -22,6 +44,24 @@ h5,
 h6 {
     text-wrap: balance;
     font-weight: normal;
+}
+
+h1,
+h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+}
+
+h3 {
+font-family: "Fraunces", serif;
+font-weight: 600;
+}
+
+h4,
+h5,
+h6 
+{
+    font-family: "Noto Sans", sans-serif;
 }
 
 p {
@@ -45,3 +85,4 @@ input,
 form {
     font: inherit;
 }
+

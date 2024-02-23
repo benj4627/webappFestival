@@ -1,0 +1,95 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5rem;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  background-color: var(--background);
+}
+
+main {
+  width: 85%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+  font-weight: normal;
+}
+
+h1,
+h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 600;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Noto Sans", sans-serif;
+}
+
+p {
+  text-wrap: pretty;
+  max-width: 75ch;
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+}
+
+img,
+picture,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+button,
+input,
+form {
+  font: inherit;
+}
+
+nav {
+  bottom: 0%;
+  position: fixed;
+  margin: 0;
+  padding: 15px 0 0 0;
+  background-color: #3CA6A6;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+}
+nav a {
+  font-size: 1rem;
+  color: #024959;
+}
+nav i {
+  font-size: 34px;
+  color: #024959;
+}/*# sourceMappingURL=style.css.map */

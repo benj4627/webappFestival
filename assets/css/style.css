@@ -198,6 +198,7 @@ nav i {
   color: var(--h1color);
   font-size: 3rem;
   padding: 2rem 0; 
+  line-height: 4rem;
 }
 
 .textContainer p {

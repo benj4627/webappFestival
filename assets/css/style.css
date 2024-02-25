@@ -163,11 +163,17 @@ nav i {
 .programList li {
   list-style-type: none;
   display: flex;
+  font-weight: 700;
+}
+
+.programList li p {
+  margin-left: .5rem;
+  font-weight: 400;
 }
 
 .programList h2 {
   font-family: "Noto Sans", sans-serif;
-  padding: 1rem 0;
+  padding: .5rem 0;
   font-size: 1.5rem;
   color: var(--h1color);
 }
@@ -185,4 +191,3 @@ nav i {
   font-size: 1.7rem;
   text-decoration: none;
 }
-

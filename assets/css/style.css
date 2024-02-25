@@ -155,5 +155,34 @@ nav i {
 }
 
 /* program list */
+.programListContainer {
+    display: flex;
+    flex-direction: column;
+}
 
-.programListContainer
+.programList li {
+  list-style-type: none;
+  display: flex;
+}
+
+.programList h2 {
+  font-family: "Noto Sans", sans-serif;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  color: var(--h1color);
+}
+
+.programList h3 {
+  font-family: "Noto Sans", sans-serif;
+  color: var(--activeState);
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+.programList i {
+  color: var(--iconColor);
+  padding: 0 .5rem;
+  font-size: 1.7rem;
+  text-decoration: none;
+}
+

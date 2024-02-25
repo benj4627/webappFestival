@@ -3,7 +3,6 @@ let btnOptions = document.querySelectorAll('.option');
 
 //Looper igennem hver knap med forEach
 btnOptions.forEach(function(btnOption) {
-
     //tjekker om nogle af knapperne har "default" og hvis ja sætter default styling når siden loades. 
    if (btnOption.classList.contains("default")) {
     // Styler default på den relevante dag
@@ -13,7 +12,7 @@ btnOptions.forEach(function(btnOption) {
   //Tilføjer en eventlistener som lytter efter klik
   btnOption.addEventListener("click", function() {
 
-    //Sikre at kun den klikkede knap har er aktiv og er farvet anderledes end de andre. Nulstiller alle knapper 
+    //Sikre at kun den klikkede knap er aktiv og at farvet anderledes end de andre. Nulstiller alle knapper før den så tildeler ny styling.
     btnOptions.forEach(function(otherBtn) {
         otherBtn.style.backgroundColor = "";
         otherBtn.style.color = "";
@@ -26,9 +25,7 @@ btnOptions.forEach(function(btnOption) {
 });
 
 //Tjekker om den nuværende URL har det relevante ord som en del af den.
-if (window.location.href.includes("program") || window.location.href.includes('scene') || window.location.href.includes('Scene'))
-
-{
+if (window.location.href.includes("program") || window.location.href.includes('scene') || window.location.href.includes('Scene')) {
     //vælger ikoner i navigation og styler den som aktiv
     let program = document.querySelector("#programIkon i");
     program.style.color = "#FB8B24";

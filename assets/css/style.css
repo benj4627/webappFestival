@@ -186,6 +186,9 @@ nav i {
 /* program slut */
 
 /* info om scenerne */
+.backButton {
+  padding-top: var(--largeSpacing);
+}
 .textContainer {
   display: flex;
   flex-direction: column;

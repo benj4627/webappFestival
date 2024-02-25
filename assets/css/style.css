@@ -158,6 +158,7 @@ nav i {
 .programListContainer {
     display: flex;
     flex-direction: column;
+    padding-bottom: 5rem;
 }
 
 .programList li {

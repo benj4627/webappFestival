@@ -93,3 +93,31 @@ nav i {
   font-size: 34px;
   color: #024959;
 }/*# sourceMappingURL=style.css.map */
+
+
+/*LINE-UP side styles */
+
+.artistEntryPointContainer {
+  height: 200px;
+  width: 85vw;
+  object-fit: cover;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.158)), url(../img/line-up_billeder/BigCreekSlim.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: var(--borderRadius);
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+
+.artistName {
+  color: white;
+  font-weight: 800;
+  font-size: 2rem;
+  margin: 0;
+}

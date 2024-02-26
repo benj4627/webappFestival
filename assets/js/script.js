@@ -5,7 +5,7 @@ let btnOptions = document.querySelectorAll('.option');
 btnOptions.forEach(function(btnOption) {
     //tjekker om nogle af knapperne har "default" og hvis ja sætter default styling når siden loades. 
    if (btnOption.classList.contains("default")) {
-    // Styler default på den relevante dag
+    // Styler default på den relevante knap
     btnOption.style.backgroundColor = "#FB8B24";
     btnOption.style.color = "white";
     } 

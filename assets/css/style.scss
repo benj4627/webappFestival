@@ -26,7 +26,7 @@ body {
     font-family: "Noto Sans", sans-serif;
     line-height: 1.5rem;
     font-size: 1.3rem;
-    
+    padding: 0;
     margin: 0 auto;
     background-color: var(--background);
 }
@@ -110,3 +110,7 @@ i{
     color: $conColor;
     }
 }
+#map {
+    height: 100%;
+    width: 400px;
+  }

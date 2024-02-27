@@ -27,7 +27,6 @@ body {
   line-height: 1.5rem;
   font-size: 1.3rem;
   margin: 0 auto;
-  width: 85%;
   background-color: var(--background);
 }
 
@@ -116,6 +115,7 @@ nav i {
 }
 .nyhedCards {
   margin-top: 50px;
+  margin: 25px 25px;
   background-color: white;
 }
 .nyhedCards h3,
@@ -131,9 +131,15 @@ nav i {
   padding: 10px 30px;
   font-weight: bold;
 }
+#footerNyheder {
+  margin-top: 150px;
+}
 /* Nyheds artikel */
 .artikelHeader {
   position: relative;
+}
+.artikel {
+  margin: 25px 25px;
 }
 #back_button {
   position: absolute;

@@ -1,11 +1,31 @@
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root{
+  --venue: #707070; 
+  --white: #FFFFFF;
+  --background: #F3F3F3; 
+  --darkGrey: #333333; 
+  --black: #232323; 
+  --activeState: #FB8B24;
+  --iconColor: #024959;
+  --venueIcons: #026773; 
+  --navBar: #3CA6A6; 
+  --largeSpacing: 2rem;
+  --stndSpacing: 1rem;
+  --borderRadius: 35px; 
+  --borderRadiumSmall: 15px; 
+  --headerColor:#012E40;
+} 
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font: inherit;
 }
+
+
 
 body {
   min-height: 100vh;
@@ -18,6 +38,7 @@ body {
 
 main {
   width: 85%;
+  margin: 0 auto;
 }
 
 a {
@@ -55,7 +76,7 @@ p {
   text-wrap: pretty;
   max-width: 75ch;
   margin-bottom: 2rem;
-  line-height: 1.5rem;
+  line-height: 130%;
 }
 
 img,
@@ -93,3 +114,201 @@ nav i {
   font-size: 34px;
   color: #024959;
 }/*# sourceMappingURL=style.css.map */
+
+
+/*LINE-UP side styles */
+
+.artistEntryPointContainer {
+margin: 0 auto;
+}
+
+.artistEntryPoint {
+  height: 150px;
+  width: 85vw;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  
+}
+
+.artistName {
+  color: white;
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+  margin: 0;
+  line-height: 2rem;
+}
+
+.bigCreek {
+background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/BigCreekSlim.jpg);
+}
+
+.creoleCatz {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/creole_catz.jpg);
+  background-position: top;
+}
+
+.downshifters {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/downshifters.jpg);
+}
+.heroya {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/heroya_musikkorps.jpg);
+  line-height: 3px;
+}
+.iceMo {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/IceMoTheZydecoolers.jpg);
+  background-position: top; 
+  
+}
+.ismoHaavisto {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Ismo\ Haavisto\ ComboI.jpg);
+}
+.jimi {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Jimi\ And\ Double\ Of\ Trouble.jpg);
+}
+.joyfulGumbo {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/joyful_gumbo.jpg);
+}
+.kant{
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/kant.jpg);
+}
+.line{
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/LineMortensenTrio.jpg);
+}
+.swingband {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/P.S_swingband.jpg);
+}
+.samantha {
+  background-position:center -250px;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/samantha_smith_trio.jpg);
+}
+.tim {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/TimLotharogPeterNande.jpg);
+}
+.togo {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/TogoRhino.jpg);
+}
+.tomi {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/tommy_leino_trio.jpg);
+}
+.twang {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Twang.jpg);
+}
+.uni {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Uni\ Debess\ Band.jpg);
+}
+.vulkan {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Vulkan.jpg);
+  background-position:top;
+}
+.wash {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Wash\ &\ Kjær.jpg);
+  margin-bottom: 9rem;
+}
+
+/* Artist bio sider */
+/* header */
+.imgStyling {
+  height: 250px;
+  width: 100vw;
+object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ position: relative;
+ margin-bottom: var(--largeSpacing);
+  }
+
+  .backBotton {
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+  }
+  
+  .bigCreek2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/BigCreekSlim.jpg);
+}
+  .creoleCatz2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/creole_catz.jpg);
+}
+  .downshifters2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/downshifters.jpg);
+}
+  .heroya2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/heroya_musikkorps.jpg);
+}
+  .iceMo2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/IceMoTheZydecoolers.jpg);
+}
+  .ismoHaavisto2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Ismo\ Haavisto\ ComboI.jpg);
+}
+  .jimi2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Jimi\ And\ Double\ Of\ Trouble.jpg);
+}
+  .gumbo2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/joyful_gumbo.jpg);
+}
+  .kant2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/kant.jpg);
+}
+  .line2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/LineMortensenTrio.jpg);
+}
+  .swingband2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/P.S_swingband.jpg);
+}
+  .tim2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/TimLotharogPeterNande.jpg);
+}
+  .togo2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/TogoRhino.jpg);
+}
+  .samantha2 {
+  background-position:center -250px;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/samantha_smith_trio.jpg);
+}
+  .tomi2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/tommy_leino_trio.jpg);
+}
+  .twang2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Twang.jpg);
+}
+  .uni2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Uni\ Debess\ Band.jpg);
+}
+  .vulkan2 {
+    background-position:center -10px;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Vulkan.jpg);
+}
+  .wash2 {
+    background-position:center -10px;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Wash\ &\ Kjær.jpg);
+}
+
+/* main */
+  .artistTextContainer h2 {
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 0.5rem;
+    color: var(--venue);
+    font-size: 1rem;
+  }
+  .artistTextContainer h1 {
+    margin-bottom: var(--stndSpacing);
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--headerColor);
+  }
+  .artistTextContainer p:last-of-type {
+   margin-bottom: 9rem;
+  }
+  

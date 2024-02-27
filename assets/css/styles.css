@@ -129,10 +129,19 @@ nav {
   position: fixed;
   margin: 0;
   padding: 15px 0 0 0;
-  background-color: #3CA6A6;
+  background-color: #3ca6a6;
   height: 100px;
   width: 100%;
   display: flex;
   gap: 1rem;
   text-align: center;
+}
+
+nav a {
+  font-size: 1rem;
+  color: #024959;
+}
+nav i {
+  font-size: 34px;
+  color: #024959;
 }

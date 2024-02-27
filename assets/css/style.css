@@ -15,6 +15,7 @@
   --stndSpacing: 1rem;
   --borderRadius: 35px; 
   --borderRadiumSmall: 15px; 
+  --headerColor:#012E40;
 } 
 
 * {
@@ -191,12 +192,12 @@ background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), u
   background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/samantha_smith_trio.jpg);
 }
 .tim {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Tim\ Lothar\ og\ Peter\ Nande.jpg);
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/TimLotharogPeterNande.jpg);
 }
 .togo {
   background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/TogoRhino.jpg);
 }
-.tommy {
+.tomi {
   background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/tommy_leino_trio.jpg);
 }
 .twang {
@@ -248,6 +249,51 @@ object-fit: cover;
   .iceMo2 {
   background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/IceMoTheZydecoolers.jpg);
 }
+  .ismoHaavisto2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Ismo\ Haavisto\ ComboI.jpg);
+}
+  .jimi2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Jimi\ And\ Double\ Of\ Trouble.jpg);
+}
+  .gumbo2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/joyful_gumbo.jpg);
+}
+  .kant2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/kant.jpg);
+}
+  .line2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/LineMortensenTrio.jpg);
+}
+  .swingband2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/P.S_swingband.jpg);
+}
+  .tim2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/TimLotharogPeterNande.jpg);
+}
+  .togo2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/TogoRhino.jpg);
+}
+  .samantha2 {
+  background-position:center -250px;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/samantha_smith_trio.jpg);
+}
+  .tomi2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/tommy_leino_trio.jpg);
+}
+  .twang2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Twang.jpg);
+}
+  .uni2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Uni\ Debess\ Band.jpg);
+}
+  .vulkan2 {
+    background-position:center -10px;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Vulkan.jpg);
+}
+  .wash2 {
+    background-position:center -10px;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Wash\ &\ Kjær.jpg);
+}
 
 /* main */
   .artistTextContainer h2 {
@@ -260,6 +306,7 @@ object-fit: cover;
     margin-bottom: var(--stndSpacing);
     font-size: 2rem;
     line-height: 2rem;
+    color: var(--headerColor);
   }
   .artistTextContainer p:last-of-type {
    margin-bottom: 9rem;

@@ -137,3 +137,9 @@ button.accordians {
   overflow: hidden;
   display: none;
 }
+.accordianSide {
+  margin: 25px 25px;
+}
+#footerInfo {
+  margin-top: 120px;
+}

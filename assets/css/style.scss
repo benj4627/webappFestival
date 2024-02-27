@@ -111,6 +111,9 @@ i{
     }
 }
 #map {
-    height: 100%;
-    width: 400px;
+    
+    iframe{
+        height: 100vh;
+    width: 100vw;
+    }
   }

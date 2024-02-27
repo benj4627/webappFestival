@@ -1,11 +1,30 @@
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root{
+  --venue: #707070; 
+  --white: #FFFFFF;
+  --background: #F3F3F3; 
+  --darkGrey: #333333; 
+  --black: #232323; 
+  --activeState: #FB8B24;
+  --iconColor: #024959;
+  --venueIcons: #026773; 
+  --navBar: #3CA6A6; 
+  --largeSpacing: 2rem;
+  --stndSpacing: 1rem;
+  --borderRadius: 35px; 
+  --borderRadiumSmall: 15px; 
+} 
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font: inherit;
 }
+
+
 
 body {
   min-height: 100vh;
@@ -56,7 +75,7 @@ p {
   text-wrap: pretty;
   max-width: 75ch;
   margin-bottom: 2rem;
-  line-height: 1.5rem;
+  line-height: 130%;
 }
 
 img,
@@ -196,9 +215,8 @@ background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), u
 }
 
 /* Artist bio sider */
-
-.bigCreek2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/BigCreekSlim.jpg);
+/* header */
+.imgStyling {
   height: 250px;
   width: 100vw;
 object-fit: cover;
@@ -206,6 +224,7 @@ object-fit: cover;
   background-position: center;
   background-size: cover;
  position: relative;
+ margin-bottom: var(--largeSpacing);
   }
 
   .backBotton {
@@ -213,3 +232,36 @@ object-fit: cover;
     top: 2rem;
     left: 1rem;
   }
+  
+  .bigCreek2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/BigCreekSlim.jpg);
+}
+  .creoleCatz2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/creole_catz.jpg);
+}
+  .downshifters2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/downshifters.jpg);
+}
+  .heroya2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/heroya_musikkorps.jpg);
+}
+  .iceMo2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/IceMoTheZydecoolers.jpg);
+}
+
+/* main */
+  .artistTextContainer h2 {
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 0.5rem;
+    color: var(--venue);
+    font-size: 1rem;
+  }
+  .artistTextContainer h1 {
+    margin-bottom: var(--stndSpacing);
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .artistTextContainer p:last-of-type {
+   margin-bottom: 9rem;
+  }
+  

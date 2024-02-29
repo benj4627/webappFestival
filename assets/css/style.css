@@ -133,6 +133,7 @@ nav i {
   font-size: 34px;
   color: #024959;
 
+
 }
 
 #map {
@@ -148,12 +149,16 @@ nav i {
 
 /*# sourceMappingURL=style.css.map */
 
+ /*# sourceMappingURL=style.css.map */
+
+
 /* Accordians */
 
 .infoOverskrift {
-  margin-left: 45%;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  color: var(--h1color);
+  text-align: center;
+  font-size: 3rem;
+  padding: var(--largeSpacing);
 }
 
 .accordians {
@@ -185,8 +190,10 @@ button.accordians {
 
 /* Nyhedscards */
 .nyhederOverskrift {
-  text-align: center;
-  margin-top: 20px;
+  color: var(--h1color);
+   text-align: center;
+   font-size: 3rem;
+   padding: var(--largeSpacing);
 }
 .nyhedCards {
   margin-top: 50px;
@@ -525,6 +532,4 @@ object-fit: cover;
   }
   .artistTextContainer p:last-of-type {
    margin-bottom: 9rem;
-  }
- 
 

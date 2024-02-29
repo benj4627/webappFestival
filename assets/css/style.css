@@ -131,7 +131,6 @@ nav a {
 nav i {
   font-size: 34px;
   color: #024959;
- Info
 } /*# sourceMappingURL=style.css.map */
 
 /* Accordians */
@@ -167,8 +166,6 @@ button.accordians {
 #footerInfo {
   margin-top: 120px;
 }
- Nyheder
-} /*# sourceMappingURL=style.css.map */
 
 /* Nyhedscards */
 .nyhederOverskrift {
@@ -217,9 +214,6 @@ button.accordians {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-}/*# sourceMappingURL=style.css.map */
-
-
 /* program start */
 /* daypicker and heading */
 
@@ -506,6 +500,3 @@ object-fit: cover;
   .artistTextContainer p:last-of-type {
    margin-bottom: 9rem;
   }
- 
- main
- main

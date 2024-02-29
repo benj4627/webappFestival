@@ -29,22 +29,6 @@
   font: inherit;
 }
 
-:root {
-  --venue: #707070;
-  --white: #ffffff;
-  --background: #f3f3f3;
-  --darkGrey: #333333;
-  --black: #232323;
-  --activeState: #fb8b24;
-  --iconColor: #024959;
-  --venueIcons: #026773;
-  --navBar: #3ca6a6;
-  --largeSpacing: 2rem;
-  --stndSpacing: 1rem;
-  --borderRadius: 35px;
-  --borderRadiumSmall: 15px;
-}
-
 body {
   min-height: 100vh;
   font-family: "Noto Sans", sans-serif;

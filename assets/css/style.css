@@ -173,9 +173,13 @@ button.accordians {
   margin-top: 10px;
   overflow: hidden;
   display: none;
+
 }
 .lastAccordian {
-  margin-bottom: 100px;
+  margin-bottom: 9rem;
+}
+.lastAccordianButton{
+  margin-bottom: 9rem;
 }
 .accordianSide {
   margin: 25px 25px;

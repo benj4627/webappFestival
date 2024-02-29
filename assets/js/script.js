@@ -37,6 +37,7 @@ if (window.location.href.includes("program") || window.location.href.includes('s
     programPara.style.color = "#FB8B24";
   };
 
+  
 mapboxgl.accessToken = 'pk.eyJ1IjoidHJpbjQ5ODgiLCJhIjoiY2x0NGJzbnNwMDFjMTJsbW45ZmNsZ214aSJ9.U07zZkXyWrTV9r43obqs1w';
     const map = new mapboxgl.Map({
         container: 'map', // container ID

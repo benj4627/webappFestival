@@ -170,12 +170,14 @@ summary:after{
   content: "\2BC6";
   font-size: 2rem;
   color: var(--activeState);
+  font-family: unset;
 }
 
 details[open] summary:after{
   content: "\2BC5";
   font-size: 2rem;
   color: var(--activeState);
+  font-family: unset;
 }
 
 .accordians {

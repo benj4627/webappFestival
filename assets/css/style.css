@@ -162,8 +162,17 @@ button.accordians {
   margin-top: 10px;
   overflow: hidden;
   display: none;
+
+}
+ p-margin
+.lastAccordian {
+  margin-bottom: 9rem;
+}
+.lastAccordianButton{
+  margin-bottom: 9rem;
 }
 
+ main
 .accordianSide {
   margin: 2rem 2rem;
 }

@@ -309,6 +309,10 @@ button.accordians {
   top: 7%
 }
 
+#back_button {
+  margin: var(--stndSpacing);
+}
+
 .textContainer {
   display: flex;
   flex-direction: column;

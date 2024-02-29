@@ -29,7 +29,21 @@
   font: inherit;
 }
 
-
+:root {
+  --venue: #707070;
+  --white: #ffffff;
+  --background: #f3f3f3;
+  --darkGrey: #333333;
+  --black: #232323;
+  --activeState: #fb8b24;
+  --iconColor: #024959;
+  --venueIcons: #026773;
+  --navBar: #3ca6a6;
+  --largeSpacing: 2rem;
+  --stndSpacing: 1rem;
+  --borderRadius: 35px;
+  --borderRadiumSmall: 15px;
+}
 
 body {
   min-height: 100vh;
@@ -103,7 +117,7 @@ nav {
   position: fixed;
   margin: 0;
   padding: 15px 0 0 0;
-  background-color: #3CA6A6;
+  background-color: #3ca6a6;
   height: 100px;
   width: 100%;
   display: flex;
@@ -117,6 +131,92 @@ nav a {
 nav i {
   font-size: 34px;
   color: #024959;
+ Info
+} /*# sourceMappingURL=style.css.map */
+
+/* Accordians */
+
+.infoOverskrift {
+  margin-left: 45%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.accordians {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  border-left: none;
+  border-right: none;
+  border-top: solid 2px var(--activeState);
+  border-bottom: solid 2px var(--activeState);
+}
+button.accordians {
+  margin-top: 20px;
+}
+
+.tekstAccordians {
+  margin-top: 10px;
+  overflow: hidden;
+  display: none;
+}
+.accordianSide {
+  margin: 25px 25px;
+}
+#footerInfo {
+  margin-top: 120px;
+}
+ Nyheder
+} /*# sourceMappingURL=style.css.map */
+
+/* Nyhedscards */
+.nyhederOverskrift {
+  text-align: center;
+  margin-top: 20px;
+}
+.nyhedCards {
+  margin-top: 50px;
+  margin: 25px 25px;
+  background-color: white;
+}
+.nyhedCards h3,
+.nyhedCards p {
+  padding: 10px 20px;
+}
+.nyhedCards button {
+  background-color: white;
+  margin-left: 100px;
+  color: var(--activeState);
+  border: 3px solid var(--activeState);
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+#footerNyheder {
+  margin-top: 150px;
+}
+/* Nyheds artikel */
+.artikelHeader {
+  position: relative;
+}
+.artikel {
+  margin: 25px 25px;
+}
+#back_button {
+  position: absolute;
+  top: 5px;
+  z-index: 1;
+}
+.artikelHeader img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.artikel h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 }/*# sourceMappingURL=style.css.map */
 
 
@@ -414,3 +514,5 @@ object-fit: cover;
    margin-bottom: 9rem;
   }
  
+ main
+ main

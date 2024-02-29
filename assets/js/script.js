@@ -1,3 +1,20 @@
+//Til at åbne og lukker accordion 
+var accordian = document.getElementsByClassName("accordians");
+var i;
+
+for (i = 0; i < accordian.length; i++) {
+  accordian[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+
+    var tekstAccordians = this.nextElementSibling;
+    if (tekstAccordians.style.display === "block") {
+      tekstAccordians.style.display = "none";
+    } else {
+      tekstAccordians.style.display = "block";
+    }
+  });
+}
+
 //Vælger de relevante knapper i HTML
 let btnOptions = document.querySelectorAll('.option');
 
@@ -34,5 +51,3 @@ if (window.location.href.includes("program") || window.location.href.includes('s
     let programPara = document.querySelector ("#programIkon p, #lineupIkon p")
     programPara.style.color = "#FB8B24";
   };
- 
-

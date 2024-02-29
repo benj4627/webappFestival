@@ -170,14 +170,12 @@ summary:after{
   content: "\2BC6";
   font-size: 2rem;
   color: var(--activeState);
-  font-family: 'Courier New', Courier, monospace;
 }
 
 details[open] summary:after{
   content: "\2BC5";
   font-size: 2rem;
   color: var(--activeState);
-  font-family: 'Courier New', Courier, monospace;
 }
 
 .accordians {
@@ -199,7 +197,8 @@ button.accordians {
   overflow: hidden;
   display: none;
 }
-p-margin .lastAccordian {
+
+.lastAccordian {
   margin-bottom: 9rem;
 }
 .lastAccordianButton {

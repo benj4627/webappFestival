@@ -129,6 +129,8 @@ nav i {
 #map iframe {
   height: 100vh;
   width: 100vw;
+
+  
 }/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
@@ -300,6 +302,13 @@ button.accordians {
 .backButton {
   padding-top: var(--largeSpacing);
 }
+
+.backButton1 {
+  position: absolute;
+  left: 7%;
+  top: 7%
+}
+
 .textContainer {
   display: flex;
   flex-direction: column;
@@ -433,12 +442,6 @@ object-fit: cover;
   }
   #programIkon {
     color: #FB8B24;
-  }
-
-  .backBotton {
-    position: absolute;
-    top: 2rem;
-    left: 1rem;
   }
   
   .bigCreek2 {

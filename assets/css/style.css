@@ -1,26 +1,25 @@
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-:root{
-  --venue: #707070; 
-  --white: #FFFFFF;
-  --background: #F3F3F3; 
-  --darkGrey: #333333; 
-  --black: #232323; 
-  --activeState: #FB8B24;
+:root {
+  --venue: #707070;
+  --white: #ffffff;
+  --background: #f3f3f3;
+  --darkGrey: #333333;
+  --black: #232323;
+  --activeState: #fb8b24;
 
-  --h1color: #012E40; 
+  --h1color: #012e40;
   --iconColor: #024959;
-  --venueIcons: #026773; 
-  --navBar: #3CA6A6; 
+  --venueIcons: #026773;
+  --navBar: #3ca6a6;
   --largeSpacing: 2rem;
   --stndSpacing: 1rem;
-  --borderRadius: 35px; 
-  --borderRadiumSmall: 10px; 
-  --borderRadiumSmall: 15px; 
-  --headerColor:#012E40;
-
-} 
+  --borderRadius: 35px;
+  --borderRadiumSmall: 10px;
+  --borderRadiumSmall: 15px;
+  --headerColor: #012e40;
+}
 
 * {
   box-sizing: border-box;
@@ -116,11 +115,14 @@ nav a {
 nav i {
   font-size: 34px;
   color: #024959;
+ p-margin
+
 }
 nav p {
   margin: unset;
   padding: unset;
   line-height: unset;
+ main
 }
 
 #map {
@@ -132,14 +134,17 @@ nav p {
 #map iframe {
   height: 100vh;
   width: 100vw;
+ p-margin
+} /*# sourceMappingURL=style.css.map */
+
 
   
 }/*# sourceMappingURL=style.css.map */
+ main
 
 /*# sourceMappingURL=style.css.map */
 
- /*# sourceMappingURL=style.css.map */
-
+/*# sourceMappingURL=style.css.map */
 
 /* Accordians */
 
@@ -169,22 +174,31 @@ button.accordians {
   overflow: hidden;
   display: none;
 }
+.lastAccordian {
+  margin-bottom: 100px;
+}
 .accordianSide {
   margin: 25px 25px;
 }
 #footerInfo {
   margin-top: 120px;
 }
- 
- /*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
 
 /* Nyhedscards */
 .nyhederOverskrift {
   color: var(--h1color);
+ p-margin
+  text-align: center;
+  font-size: 3rem;
+  padding: var(--largeSpacing);
+
    text-align: center;
    font-size: 3rem;
    padding: var(--largeSpacing);
    padding-top: 50px;
+ main
 }
 .nyhedCards {
   margin-top: 50px;
@@ -239,20 +253,26 @@ button.accordians {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.main{
+.main {
   padding-bottom: 100px;
 }
 /*# sourceMappingURL=style.css.map */
-
 
 /* program start */
 /* daypicker and heading */
 
 .headingOne h1 {
+ p-margin
+  color: var(--h1color);
+  text-align: center;
+  font-size: 3rem;
+  padding: var(--largeSpacing);
+=======
    color: var(--h1color);
    text-align: center;
    font-size: 3rem;
    padding: 57px;
+ main
 }
 
 .dayPickerContainer {
@@ -268,19 +288,19 @@ button.accordians {
   width: 40vw;
   height: 8vh;
   border-radius: var(--borderRadiumSmall);
-  border: 4px solid #FB8B24;
-  color: #FB8B24;
+  border: 4px solid #fb8b24;
+  color: #fb8b24;
   font-family: "Fraunces", serif;
   font-weight: 700;
   font-size: 2rem;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 /* program list */
 .programListContainer {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5rem;
 }
 
 .programList li {
@@ -290,13 +310,13 @@ button.accordians {
 }
 
 .programList li p {
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   font-weight: 400;
 }
 
 .programList h2 {
   font-family: "Noto Sans", sans-serif;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   font-size: 1.5rem;
   color: var(--h1color);
 }
@@ -310,7 +330,7 @@ button.accordians {
 
 .programList i {
   color: var(--iconColor);
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   font-size: 1.7rem;
   text-decoration: none;
 }
@@ -339,7 +359,7 @@ button.accordians {
 .textContainer h1 {
   color: var(--h1color);
   font-size: 3rem;
-  padding: 2rem 0; 
+  padding: 2rem 0;
   line-height: 4rem;
 }
 
@@ -350,7 +370,7 @@ button.accordians {
 /*LINE-UP side styles */
 
 .artistEntryPointContainer {
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 .artistEntryPoint {
@@ -367,7 +387,6 @@ margin: 0 auto;
   justify-content: center;
   border-radius: 10px;
   margin-bottom: 1rem;
-  
 }
 
 .artistName {
@@ -380,69 +399,87 @@ margin: 0 auto;
 }
 
 .bigCreek {
-background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/BigCreekSlim.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/BigCreekSlim.jpg);
 }
 
 .creoleCatz {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/creole_catz.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/creole_catz.jpg);
   background-position: top;
 }
 
 .downshifters {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/downshifters.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/downshifters.jpg);
 }
 .heroya {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/heroya_musikkorps.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/heroya_musikkorps.jpg);
   line-height: 3px;
 }
 .iceMo {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/IceMoTheZydecoolers.jpg);
-  background-position: top; 
-  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/IceMoTheZydecoolers.jpg);
+  background-position: top;
 }
 .ismoHaavisto {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Ismo\ Haavisto\ ComboI.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/Ismo\ Haavisto\ ComboI.jpg);
 }
 .jimi {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Jimi\ And\ Double\ Of\ Trouble.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/Jimi\ And\ Double\ Of\ Trouble.jpg);
 }
 .joyfulGumbo {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/joyful_gumbo.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/joyful_gumbo.jpg);
 }
-.kant{
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/kant.jpg);
+.kant {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/kant.jpg);
 }
-.line{
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/LineMortensenTrio.jpg);
+.line {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/LineMortensenTrio.jpg);
 }
 .swingband {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/P.S_swingband.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/P.S_swingband.jpg);
 }
 .samantha {
-  background-position:center -250px;
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/samantha_smith_trio.jpg);
+  background-position: center -250px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/samantha_smith_trio.jpg);
 }
 .tim {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/TimLotharogPeterNande.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/TimLotharogPeterNande.jpg);
 }
 .togo {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/TogoRhino.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/TogoRhino.jpg);
 }
 .tomi {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/tommy_leino_trio.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/tommy_leino_trio.jpg);
 }
 .twang {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Twang.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/Twang.jpg);
 }
 .uni {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Uni\ Debess\ Band.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/Uni\ Debess\ Band.jpg);
 }
 .vulkan {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Vulkan.jpg);
-  background-position:top;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/Vulkan.jpg);
+  background-position: top;
 }
 .wash {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Wash\ &\ Kjær.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/Wash\ &\ Kjær.jpg);
   margin-bottom: 9rem;
 }
 
@@ -451,13 +488,31 @@ background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), u
 .imgStyling {
   height: 250px;
   width: 100vw;
-object-fit: cover;
+  object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
- position: relative;
- margin-bottom: var(--largeSpacing);
-  }
+  position: relative;
+  margin-bottom: var(--largeSpacing);
+}
+
+ p-margin
+#programIkon i {
+  color: #fb8b24;
+}
+#programIkon {
+  color: #fb8b24;
+}
+
+.backBotton {
+  position: absolute;
+  top: 2rem;
+  left: 1rem;
+}
+
+.bigCreek2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/BigCreekSlim.jpg);
 
   #programIkon i{
     color: #FB8B24;
@@ -468,83 +523,100 @@ object-fit: cover;
   
   .bigCreek2 {
   background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/BigCreekSlim.jpg);
+ main
 }
-  .creoleCatz2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/creole_catz.jpg);
+.creoleCatz2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/creole_catz.jpg);
 }
-  .downshifters2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/downshifters.jpg);
+.downshifters2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/downshifters.jpg);
 }
-  .heroya2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/heroya_musikkorps.jpg);
+.heroya2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/heroya_musikkorps.jpg);
 }
-  .iceMo2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/IceMoTheZydecoolers.jpg);
+.iceMo2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/IceMoTheZydecoolers.jpg);
 }
-  .ismoHaavisto2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Ismo\ Haavisto\ ComboI.jpg);
+.ismoHaavisto2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/Ismo\ Haavisto\ ComboI.jpg);
 }
-  .jimi2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Jimi\ And\ Double\ Of\ Trouble.jpg);
+.jimi2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/Jimi\ And\ Double\ Of\ Trouble.jpg);
 }
-  .gumbo2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/joyful_gumbo.jpg);
+.gumbo2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/joyful_gumbo.jpg);
 }
-  .kant2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/kant.jpg);
+.kant2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/kant.jpg);
 }
-  .line2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/LineMortensenTrio.jpg);
+.line2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/LineMortensenTrio.jpg);
 }
-  .swingband2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/P.S_swingband.jpg);
+.swingband2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/P.S_swingband.jpg);
 }
-  .tim2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/TimLotharogPeterNande.jpg);
+.tim2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/TimLotharogPeterNande.jpg);
 }
-  .togo2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/TogoRhino.jpg);
+.togo2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/TogoRhino.jpg);
 }
-  .samantha2 {
-  background-position:center -250px;
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/samantha_smith_trio.jpg);
+.samantha2 {
+  background-position: center -250px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/samantha_smith_trio.jpg);
 }
-  .tomi2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/tommy_leino_trio.jpg);
+.tomi2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/tommy_leino_trio.jpg);
 }
-  .twang2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Twang.jpg);
+.twang2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/Twang.jpg);
 }
-  .uni2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Uni\ Debess\ Band.jpg);
+.uni2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/Uni\ Debess\ Band.jpg);
 }
-  .vulkan2 {
-    background-position:center -10px;
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Vulkan.jpg);
+.vulkan2 {
+  background-position: center -10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/Vulkan.jpg);
 }
-  .wash2 {
-    background-position:center -10px;
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/Wash\ &\ Kjær.jpg);
+.wash2 {
+  background-position: center -10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/Wash\ &\ Kjær.jpg);
 }
 
 /* main */
-  .artistTextContainer h2 {
-    font-family: "Noto Sans", sans-serif;
-    margin-bottom: 0.5rem;
-    color: var(--venue);
-    font-size: 1rem;
-  }
-  .artistTextContainer h1 {
-    margin-bottom: var(--stndSpacing);
-    font-size: 2rem;
-    line-height: 2rem;
-    color: var(--headerColor);
-  }
-  .artistTextContainer p:last-of-type {
-   margin-bottom: 9rem;
-  }
-  .artikel p{
-    
-        margin-bottom: 1;
-    
-  }
+.artistTextContainer h2 {
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 0.5rem;
+  color: var(--venue);
+  font-size: 1rem;
+}
+.artistTextContainer h1 {
+  margin-bottom: var(--stndSpacing);
+  font-size: 2rem;
+  line-height: 2rem;
+  color: var(--headerColor);
+}
+.artistTextContainer p:last-of-type {
+  margin-bottom: 9rem;
+}
+.artikel p {
+  margin-bottom: 1;
+}

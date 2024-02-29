@@ -29,6 +29,22 @@
   font: inherit;
 }
 
+:root {
+  --venue: #707070;
+  --white: #ffffff;
+  --background: #f3f3f3;
+  --darkGrey: #333333;
+  --black: #232323;
+  --activeState: #fb8b24;
+  --iconColor: #024959;
+  --venueIcons: #026773;
+  --navBar: #3ca6a6;
+  --largeSpacing: 2rem;
+  --stndSpacing: 1rem;
+  --borderRadius: 35px;
+  --borderRadiumSmall: 15px;
+}
+
 body {
   min-height: 100vh;
   font-family: "Noto Sans", sans-serif;
@@ -115,6 +131,42 @@ nav a {
 nav i {
   font-size: 34px;
   color: #024959;
+ Info
+} /*# sourceMappingURL=style.css.map */
+
+/* Accordians */
+
+.infoOverskrift {
+  margin-left: 45%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.accordians {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  border-left: none;
+  border-right: none;
+  border-top: solid 2px var(--activeState);
+  border-bottom: solid 2px var(--activeState);
+}
+button.accordians {
+  margin-top: 20px;
+}
+
+.tekstAccordians {
+  margin-top: 10px;
+  overflow: hidden;
+  display: none;
+}
+.accordianSide {
+  margin: 25px 25px;
+}
+#footerInfo {
+  margin-top: 120px;
+}
  Nyheder
 } /*# sourceMappingURL=style.css.map */
 
@@ -455,4 +507,5 @@ object-fit: cover;
    margin-bottom: 9rem;
   }
  
+ main
  main

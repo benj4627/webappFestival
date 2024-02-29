@@ -86,6 +86,7 @@ button,
 input,
 form {
   font: inherit;
+ Info
 }
 
 nav {
@@ -98,3 +99,37 @@ nav {
   gap: 1rem;
   font-size: 1rem;
 }
+
+nav {
+  bottom: 0%;
+  position: fixed;
+  margin: 0;
+  padding: 15px 0 0 0;
+  background-color: #3ca6a6;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  background-color: var(--navBar);
+ main
+  height: 100px;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+Info
+  text-align: center;
+}
+
+nav a {
+  font-size: 1rem;
+  color: #024959;
+}
+nav i {
+  font-size: 34px;
+  color: #024959;
+}
+
+  font-size: 1rem;
+}
+main

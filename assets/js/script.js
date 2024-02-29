@@ -1,4 +1,4 @@
-Info
+//Til at åbne og lukker accordion 
 var accordian = document.getElementsByClassName("accordians");
 var i;
 
@@ -14,6 +14,7 @@ for (i = 0; i < accordian.length; i++) {
     }
   });
 }
+
 //Vælger de relevante knapper i HTML
 let btnOptions = document.querySelectorAll('.option');
 
@@ -50,6 +51,3 @@ if (window.location.href.includes("program") || window.location.href.includes('s
     let programPara = document.querySelector ("#programIkon p, #lineupIkon p")
     programPara.style.color = "#FB8B24";
   };
- 
-
- main

@@ -253,11 +253,11 @@ button.accordians {
   text-align: center;
   font-size: 3rem;
   padding: var(--largeSpacing);
-  color: var(--h1color);
-  text-align: center;
-  font-size: 3rem;
-  padding: 57px;
+  
+  padding-top: 57px; 
 }
+
+
 
 .dayPickerContainer {
   display: flex;

@@ -143,36 +143,41 @@ nav p {
   font-size: 3rem;
   padding: var(--largeSpacing);
 }
-
-.accordians {
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: left;
-  border-left: none;
-  border-right: none;
-  border-top: solid 2px var(--activeState);
-  border-bottom: solid 2px var(--activeState);
+.infoContainerSingleBorder {
+  border-bottom: 3px solid var(--activeState);
 }
-button.accordians {
-  margin-top: 20px;
+.infoContainerDoubleBorder {
+  border-top: 3px solid var(--activeState);
+  border-bottom: 3px solid var(--activeState);
 }
 
-.tekstAccordians {
-  margin-top: 10px;
-  overflow: hidden;
-  display: none;
-
+.accordianSide {
+  width: 85%;
+  margin: 0 auto;
 }
- p-margin
-.lastAccordian {
-  margin-bottom: 9rem;
-}
-.lastAccordianButton{
-  margin-bottom: 9rem;
+.accordianSide ul {
+ list-style-type: none;
 }
 
- main
+summary {
+  padding: .5rem 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+summary:after{
+  content: "\2BC6";
+  font-size: 2rem;
+  color: var(--activeState);
+}
+
+details[open] summary:after{
+  content: "\2BC5";
+  font-size: 2rem;
+  color: var(--activeState);
+}
+ 
 .accordianSide {
   margin: 2rem 2rem;
 }
@@ -262,6 +267,10 @@ button.accordians {
   padding: var(--largeSpacing);
   
   padding-top: 57px; 
+}
+
+.marginButtom {
+  margin-bottom: 9rem;
 }
 
 

@@ -50,6 +50,7 @@ body {
   font-family: "Noto Sans", sans-serif;
   line-height: 1.5rem;
   font-size: 1.3rem;
+  padding: 0;
   margin: 0 auto;
   background-color: var(--background);
 }
@@ -131,7 +132,25 @@ nav a {
 nav i {
   font-size: 34px;
   color: #024959;
-} /*# sourceMappingURL=style.css.map */
+
+
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+#map iframe {
+  height: 100vh;
+  width: 100vw;
+}/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
+
+ /*# sourceMappingURL=style.css.map */
+
 
 /* Accordians */
 

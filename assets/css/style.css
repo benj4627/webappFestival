@@ -184,6 +184,7 @@ button.accordians {
    text-align: center;
    font-size: 3rem;
    padding: var(--largeSpacing);
+   padding-top: 50px;
 }
 .nyhedCards {
   margin-top: 50px;
@@ -248,7 +249,7 @@ button.accordians {
    color: var(--h1color);
    text-align: center;
    font-size: 3rem;
-   padding: var(--largeSpacing);
+   padding: 57px;
 }
 
 .dayPickerContainer {

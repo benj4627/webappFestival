@@ -136,6 +136,50 @@ nav p {
 
 /* Accordians */
 
+
+.infoOverskrift {
+  color: var(--h1color);
+  text-align: center;
+  font-size: 3rem;
+  padding: var(--largeSpacing);
+}
+.infoContainerSingleBorder {
+  border-bottom: 3px solid var(--activeState);
+}
+.infoContainerDoubleBorder {
+  border-top: 3px solid var(--activeState);
+  border-bottom: 3px solid var(--activeState);
+}
+
+.accordianSide {
+  width: 85%;
+  margin: 0 auto;
+}
+.accordianSide ul {
+ list-style-type: none;
+}
+
+summary {
+  padding: .5rem 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+summary:after{
+  content: "\2BC6";
+  font-size: 2rem;
+  color: var(--activeState);
+}
+
+details[open] summary:after{
+  content: "\2BC5";
+  font-size: 2rem;
+  color: var(--activeState);
+}
+ 
+.accordianSide {
+
 .accordians {
   width: 100%;
   padding-top: 20px;
@@ -163,6 +207,7 @@ p-margin .lastAccordian {
 }
 
 main .accordianSide {
+
   margin: 2rem 2rem;
 }
 #footerInfo {
@@ -247,6 +292,17 @@ main .accordianSide {
   text-align: center;
   font-size: 3rem;
   padding: var(--largeSpacing);
+
+  
+  padding-top: 57px; 
+}
+
+.marginButtom {
+  margin-bottom: 9rem;
+}
+
+
+
 
   padding-top: 57px;
 }

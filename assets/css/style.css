@@ -166,6 +166,8 @@ button.accordians {
 #footerInfo {
   margin-top: 120px;
 }
+ Nyheder
+} /*# sourceMappingURL=style.css.map */
 
 /* Nyhedscards */
 .nyhederOverskrift {
@@ -214,6 +216,9 @@ button.accordians {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+}/*# sourceMappingURL=style.css.map */
+
+
 /* program start */
 /* daypicker and heading */
 
@@ -415,6 +420,13 @@ object-fit: cover;
   background-size: cover;
  position: relative;
  margin-bottom: var(--largeSpacing);
+  }
+
+  #programIkon i{
+    color: #FB8B24;
+  }
+  #programIkon {
+    color: #FB8B24;
   }
 
   .backBotton {

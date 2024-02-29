@@ -177,8 +177,6 @@ details[open] summary:after{
   font-size: 2rem;
   color: var(--activeState);
 }
- 
-.accordianSide {
 
 .accordians {
   width: 100%;
@@ -292,19 +290,11 @@ main .accordianSide {
   text-align: center;
   font-size: 3rem;
   padding: var(--largeSpacing);
-
-  
   padding-top: 57px; 
 }
 
 .marginButtom {
   margin-bottom: 9rem;
-}
-
-
-
-
-  padding-top: 57px;
 }
 
 .dayPickerContainer {

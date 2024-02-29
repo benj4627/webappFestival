@@ -116,8 +116,11 @@ nav a {
 nav i {
   font-size: 34px;
   color: #024959;
-
-
+}
+nav p {
+  margin: unset;
+  padding: unset;
+  line-height: unset;
 }
 
 #map {

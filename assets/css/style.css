@@ -163,11 +163,9 @@ button.accordians {
   overflow: hidden;
   display: none;
 }
-.lastAccordian {
-  margin-bottom: 100px;
-}
+
 .accordianSide {
-  margin: 25px 25px;
+  margin: 2rem 2rem;
 }
 #footerInfo {
   margin-top: 120px;
@@ -508,7 +506,7 @@ button.accordians {
   
 .bigCreek2 {
   background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/BigCreekSlim.jpg);
-  
+
 }
 .creoleCatz2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),

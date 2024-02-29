@@ -27,7 +27,7 @@ btnOptions.forEach(function(btnOption) {
 //Tjekker om den nuværende URL har det relevante ord som en del af den.
 if (window.location.href.includes("program") || window.location.href.includes('scene') || window.location.href.includes('Scene') || window.location.href.includes('lineUp')) {
     //vælger ikoner i navigation og styler den som aktiv
-    let program = document.querySelector("#programIkon i,  #lineupIkon i");
+    let program = document.querySelector("#programIkon i,  #lineupIkon i"); 
     program.style.color = "#FB8B24";
 
     //vælger p elementet i navigationen og styler den som aktiv

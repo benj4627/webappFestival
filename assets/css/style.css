@@ -170,14 +170,14 @@ summary:after{
   content: "\2BC6";
   font-size: 2rem;
   color: var(--activeState);
-  font-family: unset;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 details[open] summary:after{
   content: "\2BC5";
   font-size: 2rem;
   color: var(--activeState);
-  font-family: unset;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .accordians {

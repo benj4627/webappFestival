@@ -115,7 +115,6 @@ nav a {
 nav i {
   font-size: 34px;
   color: #024959;
-
 }
 
 nav p {
@@ -133,9 +132,10 @@ nav p {
 #map iframe {
   height: 100vh;
   width: 100vw;
-} 
+}
 
 /* Accordians */
+
 
 .infoOverskrift {
   color: var(--h1color);
@@ -179,6 +179,35 @@ details[open] summary:after{
 }
  
 .accordianSide {
+
+.accordians {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  border-left: none;
+  border-right: none;
+  border-top: solid 2px var(--activeState);
+  border-bottom: solid 2px var(--activeState);
+}
+button.accordians {
+  margin-top: 20px;
+}
+
+.tekstAccordians {
+  margin-top: 10px;
+  overflow: hidden;
+  display: none;
+}
+p-margin .lastAccordian {
+  margin-bottom: 9rem;
+}
+.lastAccordianButton {
+  margin-bottom: 9rem;
+}
+
+main .accordianSide {
+
   margin: 2rem 2rem;
 }
 #footerInfo {
@@ -193,11 +222,10 @@ details[open] summary:after{
   text-align: center;
   font-size: 3rem;
   padding: var(--largeSpacing);
-   text-align: center;
-   font-size: 3rem;
-   padding: var(--largeSpacing);
-   padding-top: 50px;
-
+  text-align: center;
+  font-size: 3rem;
+  padding: var(--largeSpacing);
+  padding-top: 50px;
 }
 .nyhedCards {
   margin-top: 50px;
@@ -222,7 +250,6 @@ details[open] summary:after{
   border-radius: 20px;
   padding: 10px 30px;
   font-weight: bold;
-  
 }
 
 .centerButton {
@@ -265,6 +292,7 @@ details[open] summary:after{
   text-align: center;
   font-size: 3rem;
   padding: var(--largeSpacing);
+
   
   padding-top: 57px; 
 }
@@ -274,6 +302,10 @@ details[open] summary:after{
 }
 
 
+
+
+  padding-top: 57px;
+}
 
 .dayPickerContainer {
   display: flex;
@@ -344,7 +376,7 @@ details[open] summary:after{
 .backButton1 {
   position: absolute;
   left: 7%;
-  top: 7%
+  top: 7%;
 }
 
 #back_button {
@@ -496,8 +528,7 @@ details[open] summary:after{
   margin-bottom: var(--largeSpacing);
 }
 
- p-margin
-#programIkon i {
+p-margin #programIkon i {
   color: #fb8b24;
 }
 #programIkon {
@@ -515,16 +546,16 @@ details[open] summary:after{
     url(../img/line-up_billeder/BigCreekSlim.jpg);
 }
 
-#programIkon i{
-    color: #FB8B24;
-  }
+#programIkon i {
+  color: #fb8b24;
+}
 #programIkon {
-    color: #FB8B24;
-  }
-  
-.bigCreek2 {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/BigCreekSlim.jpg);
+  color: #fb8b24;
+}
 
+.bigCreek2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url(../img/line-up_billeder/BigCreekSlim.jpg);
 }
 .creoleCatz2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),

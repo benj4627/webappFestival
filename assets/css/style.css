@@ -115,14 +115,13 @@ nav a {
 nav i {
   font-size: 34px;
   color: #024959;
- p-margin
 
 }
+
 nav p {
   margin: unset;
   padding: unset;
   line-height: unset;
- main
 }
 
 #map {
@@ -134,17 +133,7 @@ nav p {
 #map iframe {
   height: 100vh;
   width: 100vw;
- p-margin
-} /*# sourceMappingURL=style.css.map */
-
-
-  
-}/*# sourceMappingURL=style.css.map */
- main
-
-/*# sourceMappingURL=style.css.map */
-
-/*# sourceMappingURL=style.css.map */
+} 
 
 /* Accordians */
 
@@ -175,14 +164,17 @@ button.accordians {
   display: none;
 
 }
+ p-margin
 .lastAccordian {
   margin-bottom: 9rem;
 }
 .lastAccordianButton{
   margin-bottom: 9rem;
 }
+
+ main
 .accordianSide {
-  margin: 25px 25px;
+  margin: 2rem 2rem;
 }
 #footerInfo {
   margin-top: 120px;
@@ -193,16 +185,14 @@ button.accordians {
 /* Nyhedscards */
 .nyhederOverskrift {
   color: var(--h1color);
- p-margin
   text-align: center;
   font-size: 3rem;
   padding: var(--largeSpacing);
-
    text-align: center;
    font-size: 3rem;
    padding: var(--largeSpacing);
    padding-top: 50px;
- main
+
 }
 .nyhedCards {
   margin-top: 50px;
@@ -266,18 +256,15 @@ button.accordians {
 /* daypicker and heading */
 
 .headingOne h1 {
- p-margin
   color: var(--h1color);
   text-align: center;
   font-size: 3rem;
   padding: var(--largeSpacing);
-=======
-   color: var(--h1color);
-   text-align: center;
-   font-size: 3rem;
-   padding: 57px;
- main
+  
+  padding-top: 57px; 
 }
+
+
 
 .dayPickerContainer {
   display: flex;
@@ -517,17 +504,18 @@ button.accordians {
 .bigCreek2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
     url(../img/line-up_billeder/BigCreekSlim.jpg);
+}
 
-  #programIkon i{
+#programIkon i{
     color: #FB8B24;
   }
-  #programIkon {
+#programIkon {
     color: #FB8B24;
   }
   
-  .bigCreek2 {
+.bigCreek2 {
   background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/BigCreekSlim.jpg);
- main
+
 }
 .creoleCatz2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),

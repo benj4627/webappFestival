@@ -184,19 +184,30 @@ button.accordians {
   margin-top: 50px;
   margin: 25px 25px;
   background-color: white;
+  padding: var(--stndSpacing);
+  border-radius: 10px;
 }
+
+.last {
+  margin-bottom: 9rem;
+}
+
 .nyhedCards h3,
 .nyhedCards p {
   padding: 10px 20px;
 }
 .nyhedCards button {
   background-color: white;
-  margin-left: 100px;
   color: var(--activeState);
   border: 3px solid var(--activeState);
   border-radius: 20px;
   padding: 10px 30px;
   font-weight: bold;
+  
+}
+
+.centerButton {
+  text-align: center;
 }
 #footerNyheder {
   margin-top: 150px;

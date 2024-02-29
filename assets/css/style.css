@@ -115,6 +115,14 @@ nav a {
 nav i {
   font-size: 34px;
   color: #024959;
+ p-margin
+
+}
+nav p {
+  margin: unset;
+  padding: unset;
+  line-height: unset;
+ main
 }
 
 #map {
@@ -126,7 +134,13 @@ nav i {
 #map iframe {
   height: 100vh;
   width: 100vw;
+ p-margin
 } /*# sourceMappingURL=style.css.map */
+
+
+  
+}/*# sourceMappingURL=style.css.map */
+ main
 
 /*# sourceMappingURL=style.css.map */
 
@@ -175,27 +189,45 @@ button.accordians {
 /* Nyhedscards */
 .nyhederOverskrift {
   color: var(--h1color);
+ p-margin
   text-align: center;
   font-size: 3rem;
   padding: var(--largeSpacing);
+
+   text-align: center;
+   font-size: 3rem;
+   padding: var(--largeSpacing);
+   padding-top: 50px;
+ main
 }
 .nyhedCards {
   margin-top: 50px;
   margin: 25px 25px;
   background-color: white;
+  padding: var(--stndSpacing);
+  border-radius: 10px;
 }
+
+.last {
+  margin-bottom: 9rem;
+}
+
 .nyhedCards h3,
 .nyhedCards p {
   padding: 10px 20px;
 }
 .nyhedCards button {
   background-color: white;
-  margin-left: 100px;
   color: var(--activeState);
   border: 3px solid var(--activeState);
   border-radius: 20px;
   padding: 10px 30px;
   font-weight: bold;
+  
+}
+
+.centerButton {
+  text-align: center;
 }
 #footerNyheder {
   margin-top: 150px;
@@ -230,10 +262,17 @@ button.accordians {
 /* daypicker and heading */
 
 .headingOne h1 {
+ p-margin
   color: var(--h1color);
   text-align: center;
   font-size: 3rem;
   padding: var(--largeSpacing);
+=======
+   color: var(--h1color);
+   text-align: center;
+   font-size: 3rem;
+   padding: 57px;
+ main
 }
 
 .dayPickerContainer {
@@ -301,6 +340,17 @@ button.accordians {
 .backButton {
   padding-top: var(--largeSpacing);
 }
+
+.backButton1 {
+  position: absolute;
+  left: 7%;
+  top: 7%
+}
+
+#back_button {
+  margin: var(--stndSpacing);
+}
+
 .textContainer {
   display: flex;
   flex-direction: column;
@@ -446,6 +496,7 @@ button.accordians {
   margin-bottom: var(--largeSpacing);
 }
 
+ p-margin
 #programIkon i {
   color: #fb8b24;
 }
@@ -462,6 +513,17 @@ button.accordians {
 .bigCreek2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
     url(../img/line-up_billeder/BigCreekSlim.jpg);
+
+  #programIkon i{
+    color: #FB8B24;
+  }
+  #programIkon {
+    color: #FB8B24;
+  }
+  
+  .bigCreek2 {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)), url(../img/line-up_billeder/BigCreekSlim.jpg);
+ main
 }
 .creoleCatz2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),

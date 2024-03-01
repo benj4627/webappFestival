@@ -362,13 +362,8 @@ main .accordianSide {
 
 /* info om scenerne */
 .backButton {
-  padding-top: var(--largeSpacing);
-}
-
-.backButton1 {
-  position: absolute;
-  left: 7%;
-  top: 7%;
+  padding-top: 2rem;
+  margin-left: var(--stndSpacing);
 }
 
 #back_button {
